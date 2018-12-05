@@ -1,37 +1,39 @@
-/* leave animations for the end */
-.dot1 {
-  height: 50px;
-  width: 50px;
-  background-color: purple;
-  border-radius: 100%;
-  display: inline-block;
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: black;
+  color: white;
+  min-width: 300px;
 }
 
-.dot2 {
-  height: 50px;
-  width: 50px;
-  background-color: teal;
-  border-radius: 100%;
-  display: inline-block;
-}
-.gametable{
-  border: 5px black solid;
-  margin: 0;
-}
-.gameboard{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 3em;
-}
-table{
+
+table {
   border-collapse: collapse;
+  margin-top: 10px;
 }
+
 td {
   border: 1px black solid;
   width: 5em;
   height: 5em;
-  background-color: #ffff9d;
+  background-color: teal;
   text-align: center;
   vertical-align: middle;
+}
+
+td:hover {
+  background-color: #d7f7f5;
+}
+.dot1 {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 50px;
+  width: 50px;
+  background-color: #182952;
+  border-radius: 50%;
+  display: inline-block;
 }

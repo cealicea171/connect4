@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link href="styles.css" rel="stylesheet" type="text/css" />
+
 
 <head>
   <meta charset="utf-8">
   <title>Connect 4</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
   <!--we can change the title eventually, just a start-->
 </head>
 
 <body>
   <h1>Welcome to Connect 4</h1>
-  <!--below is rules for the connect 4-->
   <p>To win Connect Four you must be the first player to get four of your colored checkers in a row either horizontally, vertically or diagonally. Pick a checker and that color checker you choose will remain your checker, pick a slot to drop your
     checker in and start playing!</p>
-  <!--im putting the game board in a div so everything can be easy access-->
-  <div id="gameboard">
-    <h1> Which checker do you want to be?</h1>
-    <button id="player1"><span class="dot1" id="checkerp"></span></button>
-    <button id="player2"><span class="dot2" id="checkert"></span></button>
+<button id="player1"><span class="dot1"></span></button>
+      <button id="player2"><span class="dot2"></span></button>
+    <main>
+        <table></table>
+
+        <section></section>
+      </main>
 
 
 
-    <!--this is the actual game board-->
-    <table id="gametable">
-      <thead>
-        <tr>
-          <td><button onclick="drop (0);">Drop</button></td>
-        </tr>
-        <td><button onclick="drop (1);">Drop</button></td>
-        <td><button onclick="drop (2);">Drop</button></td>
-        <td><button onclick="drop (3);">Drop</button></td>
-        <td><button onclick="drop (4);">Drop</button></td>
-        <td><button onclick="drop <tr>
-            (5);">Drop</button></td>
-        <td><button onclick="drop (6);">Drop</button></td>
-        </tr>
-      </thead>
-    </table>
-  </div>
+  </main>
+  <script src="main.js">
 
-  <script src="main.js"> </script>
+  </script>
 </body>
 
 </html>
