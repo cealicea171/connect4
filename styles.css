@@ -18,22 +18,9 @@ td {
   background-color: teal;
   text-align: center;
   vertical-align: middle;
+  border-radius: 50%;
 }
 
 td:hover {
   background-color: #d7f7f5;
-}
-.dot1 {
-  height: 50px;
-  width: 50px;
-  background-color: purple;
-  border-radius: 50%;
-  display: inline-block;
-}
-.dot2 {
-  height: 50px;
-  width: 50px;
-  background-color: #182952;
-  border-radius: 50%;
-  display: inline-block;
 }
