@@ -163,11 +163,9 @@ function storecell(cellclick2) {
 
 }
 
-
-
-module.exports = {
-  onload
-  resetGrid
-  makeGrid
-  storecell
-};
+//module.exports = {
+//  onload
+  //resetGrid
+//  makeGrid
+//  storecell
+//};
