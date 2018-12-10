@@ -1,0 +1,35 @@
+functions( {names } parameters/arguments)
+-declaration, expression,arrow
+array (ordered collection of values)
+-.length
+-element/item at its index
+-push(), pop(),every() forEach map filter reduce shift slice spice
+objects - data structure, collection of grounded values
+primitives
+types: NUMBER STRINGS EMPTY VALUE BOOLEAN OPERATORS
+all of them
+1234 13v 14 15
+5
+6
+Dom document has create element events and handlers let vs const vs var scope?
+variable color ="red"
+key property and values
+
+
+115-
+stages of both how they differ the roles of both what role  beleongs ij which stage
+waterfall vs agile
+
+ aspects of agile
+ sprint
+ interation
+ testing
+ kanban
+ what do u put? back log , user storys , burn down, progress
+ estimate
+ parato - 80;20
+ kano model - How Kano model helps to agile product backlog prioritization. ... One such dimension that product owner should be aware of is expected customer satisfaction. Satisfaction with developed feature or story. Mr. Noriaki Kano developed Kano model as valuable technique helping to recognize that.
+ cone of certainty-
+ risk
+ benefit
+  matrix

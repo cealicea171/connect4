@@ -59,19 +59,3 @@ section p {
   opacity: 0.7;
   text-align: center;
 }
-
-.dot1 {
-  height: 50px;
-  width: 50px;
-  background-color: purple;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.dot2 {
-  height: 50px;
-  width: 50px;
-  background-color: #182952;
-  border-radius: 50%;
-  display: inline-block;
-}
