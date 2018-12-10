@@ -1,13 +1,9 @@
 //creates an array for the game to alternate between users
-const USERS = [];
+const USERS = ["player1", "player2"];
 //these create values in the array for the players, 0 and 1 are for the places
-USERS[0] = "player1";
-USERS[1] = "player2";
 //creates an array for colors so colors can be alternated
-var playercolordefault = [];
+var playercolordefault = ["purple", "red"];
 // thesestates the values for the array
-playercolordefault[0] = "purple";
-playercolordefault[1] = "red";
 //make an active player variable so the person knows what active player is playing
 //  making a variable for The player to always be null making the player player 1 at the beginning and after the win
 var activeplayer = "";
